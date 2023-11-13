@@ -1,0 +1,11 @@
+include partials/head
+
+body 
+    h1 Pagina Productos:
+    div
+        h2: i Señor/a #{nombre}
+        #container.col
+            if edad >= 18
+                p Ud. es mayor de edad
+            else
+                p Tienes menos de 18 años
